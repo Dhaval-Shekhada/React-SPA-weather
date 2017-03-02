@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha && mocha test --require blanket --reporter doc > coverage.html"
+    "test": "mocha && mocha test --require blanket --reporter doc > coverage.html",
+    "start":"node server.js"
   },
   "author": "",
   "license": "ISC",
