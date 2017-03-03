@@ -44,7 +44,7 @@ render: function(){
   return (
   <div>
 
-  
+  <h1 className ="text-center">Weather </h1>
   <WeatherForm onSearch = {this.HandleSearch}/>
   {renderMessage()}
 </div>

@@ -1,18 +1,26 @@
 var React = require('react');
 var Nav = require('Nav');
+  // to render all component in center of main file we style here.
+var Main = React.createClass({
 
-var Main = function(props){
+  render: function(){
 
     return (
       <div>
           <Nav/>
-        
-        {props.children}
+
+          <div className ="row">
+            <div className ="colums medium-6 large-4 small-centered">
+              {this.props.children}
+            </div>
+          </div>
+
 
       </div>
 
- );
+      );
   }
+});
 
 
 
