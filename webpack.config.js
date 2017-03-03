@@ -33,7 +33,7 @@ module.exports={
       Total:'app/components/Product/Total.jsx',
       ErrorModal:'app/components/Error/Errormodal.jsx',
       openWeatherMap:'app/api/openWeatherMap.jsx',
-      applicationStyles:'app/styles/app.css'
+      applicationStyles:'app/styles/app.scss'
 
     },
     extensions:['','.js','.jsx']
