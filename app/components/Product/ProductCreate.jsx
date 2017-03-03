@@ -18,7 +18,7 @@ this.refs.price.value= "";
 render: function(){
 
  return (
-   <div className =" callout primary page-title">
+   <div className="page-title">
          <form onSubmit = {this.onButtonClick}>
            <input  type="text" placeholder= "Product Name" ref="name"/>
            <input  type="text" placeholder= "Product Price" ref = "price"/>

@@ -31,7 +31,7 @@ var Weather = React.createClass({
         window.location.hash="#/";
       }
     },
-// wired up nav search update 
+// wired up nav search update
     componentWillReceiveProps:function(newProps){
       var location = newProps.location.query.location;
       if(location && location.length>0){

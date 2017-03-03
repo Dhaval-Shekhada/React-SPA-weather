@@ -30,17 +30,17 @@ var Product = React.createClass({
         var price = this.props.Price;
         return (
             <div className="row " data-equalizer data-equalizer-by-row="true">
-                <div className="Medium-4 columns ">
+                <div >
                     <div>
-                        <h5 >{name}- ${price}
+                        <h5 className="message">{name}- ${price}
                         </h5>
                     </div>
-                    <div className="tiny button-group">
-                        <button className="button hollow tiny success " onClick={this.buy}>Buy</button>
-                        <button className="button hollow tiny primary" onClick={this.show}>Show</button>
-                        <button className="button hollow tiny alert" onClick={this.remove}>Remove</button>
+                    <div className="tiny btn ">
+                        <button className="button  tiny btn " onClick={this.buy}>Buy</button>
+                        <button className="button  tiny btn" onClick={this.show}>Show</button>
+                        <button className="button  tiny btn" onClick={this.remove}>Remove</button>
                     </div>
-                    <div >
+                    <div className="message" >
                         <h6 >
                             Qty : {this.state.qty}
                             Item(s) </h6>

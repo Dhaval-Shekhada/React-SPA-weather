@@ -1,10 +1,28 @@
 $space-top: 2.5rem;
 $space-bottom:2.5rem;
 $page-title-color : #555;
+$text-color: #330000;
+
+$button-margin : 10px;
+
 .page-title{
   color:$page-title-color;
   margin-top:$space-top;
   margin-bottom:$space-bottom;
+}
+
+
+.button{
+
+  margin-right: $button-margin;
+}
+.responsive{
+ 
+  width:calc(100%-150px);
+}
+
+.message {
+  color: $text-color;
 }
 
 input[type=search]{

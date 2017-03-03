@@ -18,7 +18,7 @@ render: function(){
 
   return(
   <div>
-  <form onSubmit={this.onButtonClick}>
+  <form  onSubmit={this.onButtonClick}>
   <input type='text' ref='location' placeholder="Enter Location"/>
   <button className ="button expanded hollow">Get Weather</button>
 
