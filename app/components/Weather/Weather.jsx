@@ -22,7 +22,7 @@ var Weather = React.createClass({
         });
 
     },
-
+// wired up nav search enter parameter
     componentDidMount: function(){
       var location =this.props.location.query.location;
       if(location && location.length>0){
@@ -31,7 +31,7 @@ var Weather = React.createClass({
         window.location.hash="#/";
       }
     },
-
+// wired up nav search update 
     componentWillReceiveProps:function(newProps){
       var location = newProps.location.query.location;
       if(location && location.length>0){
