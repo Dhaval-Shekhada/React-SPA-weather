@@ -1,5 +1,5 @@
 var axios = require('axios');
-const OPEN_WEATHER_MAP_URL='http://api.apixu.com/v1/current.json?key=74d96e96d71643b5a88195832170303';
+const OPEN_WEATHER_MAP_URL='https://api.apixu.com/v1/current.json?key=74d96e96d71643b5a88195832170303';
 //c4e735ea8bd7e7b6dc8368c752517b2d
 //44ed6539b13b168a5ab432fb26c258e5
 module.exports ={
