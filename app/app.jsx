@@ -9,8 +9,12 @@ var Example = require('Example');
 var ProductList = require('ProductList');
 //load foundation-sites
 
-require('style!css!foundation-sites/dist/foundation.min.css');
+require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
+
+// App css
+
+require('style!css!applicationStyles')
 ReactDOM.render(
     <Router history={hashHistory}>
     <Route path="/" component={Main}>
